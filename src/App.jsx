@@ -19,10 +19,10 @@ function App() {
           <h3>Novidades em Breve...</h3>
         </div>
         <div className="icons">
-          <a href="https://www.instagram.com/alisson.almeidaq" target="_blank" style={{ marginRight: "5rem", color: "#fff" }}>
+          <a href="https://www.instagram.com/alisson.almeidaq" target="_blank" >
             <FaInstagram size="40" />
           </a>
-          <a href="https://www.linkedin.com/mwlite/in/alissonalmeidaq" target="_blank" style={{color: "#fff" }}>
+          <a href="https://www.linkedin.com/mwlite/in/alissonalmeidaq" target="_blank">
             <AiOutlineLinkedin size="40" />
           </a>
         </div>

@@ -8,8 +8,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
 }
 
@@ -28,8 +28,15 @@
 .icons a {
   color: #fff;
   font-size: 2rem;
-  margin-right: 3rem;
 }
+
+.icons {
+  width: 20vw;
+  display: flex;
+  margin-top: -2rem;
+  justify-content: space-around;
+}
+
 .icons a:hover {
   color: rgb(163, 207, 226);
 }
@@ -57,10 +64,9 @@
     margin-top: 5rem;
     padding: 1em;
   }
-  .icons a {
-    color: #fff;
-    font-size: 40rem;
-    margin-right: 10rem;
+
+  .icons {
+    width: 50vw;
   }
 }
 
