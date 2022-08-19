@@ -5,22 +5,42 @@
   text-align: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .logo {
-  height: 24em;
+  height: 24rem;
   padding: 1.5em;
   will-change: filter;
+  margin-top: calc(100vh - 95vh);
+
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+.icons a {
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 3rem;
+  vertical-align: middle;
 }
+.icons a:hover {
+  color: rgb(163, 207, 226);
+}
+
 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -29,6 +49,18 @@
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    height: 18rem;
+    margin-top: calc(100vh - 80vh);
+  }
+  .icons a {
+    color: #fff;
+    font-size: 40rem;
+    margin-right: 10rem;
   }
 }
 
