@@ -1,5 +1,4 @@
 import './App.css'
-import aalissonaq from './assets/aalissonaq.svg'
 
 function App() {
 
@@ -9,7 +8,7 @@ function App() {
       <div>
 
         <a href="" target="_blank">
-          <img src={aalissonaq} className="logo" alt="aalissonaq logo" />
+          <img src="/aalissonaq.svg" className="logo" alt="aalissonaq logo" />
         </a>
       </div>
 
