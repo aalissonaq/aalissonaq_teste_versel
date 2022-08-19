@@ -14,7 +14,7 @@
 }
 
 .logo {
-  height: 24rem;
+  height: 20rem;
   padding: 1.5em;
   will-change: filter;
   margin-top: calc(100vh - 95vh);
@@ -29,7 +29,6 @@
   color: #fff;
   font-size: 2rem;
   margin-right: 3rem;
-  vertical-align: middle;
 }
 .icons a:hover {
   color: rgb(163, 207, 226);
@@ -54,8 +53,9 @@
 
 @media only screen and (max-width: 600px) {
   .logo {
-    height: 18rem;
-    margin-top: calc(100vh - 80vh);
+    height: 15rem;
+    margin-top: 5rem;
+    padding: 1em;
   }
   .icons a {
     color: #fff;

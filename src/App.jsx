@@ -18,7 +18,7 @@ function App() {
         <div className="card">
           <h3>Novidades em Breve...</h3>
         </div>
-        <div className="icon">
+        <div className="icons">
           <a href="https://www.instagram.com/alisson.almeidaq" target="_blank" style={{ marginRight: "5rem", color: "#fff" }}>
             <FaInstagram size="40" />
           </a>
