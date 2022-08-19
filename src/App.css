@@ -61,12 +61,16 @@
 @media only screen and (max-width: 600px) {
   .logo {
     height: 15rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
     padding: 1em;
   }
 
   .icons {
     width: 50vw;
+  }
+  .card {
+    padding: 0.5em;
+    margin-top:-2rem
   }
 }
 
